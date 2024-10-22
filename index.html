@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Jof</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header id="home">
+        <!-- header inner -->
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                            <div class="center-desk">
+                                <div class="logo"> <a href="index.html"><img src="images/planty.png" alt="#"></a> </div>
+                            <h1>Planty</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <div class="menu-area">
+                            <div class="limit-box">
+                                <nav class="main-menu">
+                                    <ul class="menu-area-main">
+                                        <li class="active"><a href="#home">Главная</a></li>
+                                        <li><a href="#about">О нас</a></li>
+                                        <li><a href="#fruits">Букеты</a></li>
+                                        <li><a href="#blog">Растения</a></li>
+                                        <li><a href="#contact">Связь</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#loginModal"><img src="images/login.png" alt="Логин" style="width: 30px; height: auto;"></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header inner -->
+    </header>
+    <!-- end header -->
+
+
+    <section class="slider_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="full">
+                        <h1><strong class="cur">Растения</strong><br>это не только увлечение, но и искусство</h1>
+                            <p>Наш магазин предлагает разнообразие зелёных друзей, которые привнесут уют и свежесть в ваш дом.</p>
+                            <div class="button_section"><a class="main_bt" href="#">Купить сейчас</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="full text_align_center">
+                        <img class="slide_img" src="images/beautiful-violet-flowers.png" alt="#" /> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <div id="about" class="about layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="images/garden-tools.png" alt="#" />
+                </div>
+                <div class="col-md-6">
+                    <div class="heading margin_top_30">
+                        <h2>О нашем магазине</h2>
+                    </div>
+                    <div class="full margin_top_20">
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="full margin_top_30">
+                        <a class="main_bt" href="#">Больше о нас</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Авторизация</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Имя пользователя</label>
+                            <input type="text" class="form-control" id="username" placeholder="Введите имя пользователя">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Пароль</label>
+                            <input type="password" class="form-control" id="password" placeholder="Введите пароль">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Войти</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- end login modal -->
+
+
+    <!-- section -->
+    <div id="fruits" class="section dark_bg layout_padding left_white">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                    <div class="heading full text_align_center">
+                        <h2 class="white_font full text_align_center">Букеты</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4 margin_top_30">
+                    <div class="full fr">
+                        <img class="img-responsive" src="images/peonies.jpg" width="300px" height="300px" alt="#" />
+                    </div>
+                    <div class="full text_align_center">
+                        <h3 class="white_font">Пионы<br><strong class="theme_blue">Букет</strong></h3>
+                    </div>   
+                </div>
+                <div class="col-md-4 margin_top_30">
+                    <div class="full fr">
+                        <img class="img-responsive" src="images/roses.jpg" width="300px" height="300px" alt="#" />
+                    </div>
+                    <div class="full text_align_center">
+                        <h3 class="white_font">Розы<br><strong class="theme_blue">Букет</strong></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 margin_top_30">
+                    <div class="full fr">
+                        <img class="img-responsive" src="images/hrizantemy.jfif" width="300px" height="300px" alt="#" />
+                    </div>
+                    <div class="full text_align_center">
+                        <h3 class="white_font">Хризантемы<br><strong class="theme_blue">Букет</strong></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+    <!-- section -->
+    <div class="section layout_padding">
+        <div class="container">
+            <div class="row align-items-center"> <!-- Добавлен класс для выравнивания по центру -->
+                <div class="col-md-6">
+                    <div class="full main_heading_1">
+                        <h2>Суккуленты</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing el sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure doloreprehenderin </p>
+                    </div>   
+                    <div class="full margin_top_30">
+                        <a class="main_bt" href="#">Читать больше</a>
+                    </div>
+                </div>
+                <div class="col-md-6 padding_right_0">
+                    <div class="full">
+                        <img src="images/succulents.png" width="500px" alt="#" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <!-- end section -->
+<!-- section -->
+    <div id="blog" class="section dark_bg layout_padding right_white">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                    <div class="heading full text_align_center">
+                        <h2 class="white_font full text_align_center">Наша история</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4 margin_top_30">
+                    <div class="full" style="overflow: hidden;">
+                    <div class="full bl">
+                        <img class="img-responsive" src="images/cactus.jfif" alt="#" />
+                    </div>
+                    <div class="full blog_blue text_align_center">
+                        <h5 class="white_font">Кактус</h3>
+                        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniadolor..</p>
+                    </div> 
+                     </div>  
+                </div>
+                <div class="col-md-4 margin_top_30">
+                    <div class="full" style="overflow: hidden;">
+                    <div class="full bl">
+                        <img class="img-responsive" src="images/paporotnik.jpg" alt="#" />
+                    </div> 
+                    <div class="full blog_blue text_align_center">
+                        <h5 class="white_font">Папоротник комнатный</h3>
+                        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniadolor..</p>
+                    </div>
+                     </div>
+                </div>
+                <div class="col-md-4 margin_top_30">
+                    <div class="full" style="overflow: hidden;">
+                    <div class="full bl">
+                        <img class="img-responsive" src="images/orhideya.jfif" alt="#" />
+                    </div> 
+                    <div class="full blog_blue text_align_center">
+                        <h5 class="white_font">Орхидея</h3>
+                        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniadolor..</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+     
+    <!-- section -->
+    <div id="contact" class="section layout_padding">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-md-6 padding_left_0">
+                    <div class="full">
+                        <img class="float-left" src="images/fon.jpg" width="700px" alt="#" />
+                    </div>
+                </div>
+
+               <div class="col-md-6">
+                <div class="heading">
+                        <h2>Для звонка <strong class="theme_blue">от нас</strong></h2>
+                    </div>
+                    <div class="full margin_top_20">
+                        <form>
+                        <div class="row">
+                            <div class="col-sm-12">
+                               <input class="form-control" placeholder="Ваше Имя" type="text" required="">
+                            </div>
+                            <div class="col-sm-12">
+                               <input class="form-control" placeholder="Эл.почта" type="Email" required="">
+                            </div>
+                            <div class="col-sm-12">
+                                <input class="form-control" placeholder="Номер" type="text" required="">
+                            </div>
+                            <div class="col-sm-12">
+                                <textarea class="form-control textarea" placeholder="сообщение"></textarea>
+                            </div>
+                        </div>
+                        <button class="main_bt">Отправить</button>
+                    </form>
+                    </div>   
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+
+   <!-- Comments Section -->
+<section id="comments" class="comments_section">
+    <div class="container">
+        <h2>Комментарии</h2>
+        <div class="comments_form">
+            <form id="commentForm">
+                <div class="form-group">
+                    <label for="username">Имя:</label>
+                    <input type="text" id="username" class="form-control" placeholder="Введите ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Комментарий:</label>
+                    <textarea id="comment" class="form-control" rows="4" placeholder="Введите ваш комментарий" required></textarea>
+                </div>
+                <!-- Исправление type с send на submit -->
+                <button type="submit" class="btn btn-comment">Отправить</button>
+            </form>
+        </div>
+        <div class="comments_display">
+            <h3>Комментарии:</h3>
+            <ul id="commentsList">
+                <!-- Комментарии будут добавляться сюда -->
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer layout_padding">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h3>Связаться с нами</h3>
+                            <p>улица Каныша Сатбаева, Алматы<br><br>+7 777 467 0747<br><br>nani0508@gmail.com</p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h3>Страницы</h3>
+                            <p>
+                              <a href="#home">Главная</a><br>
+                              <a href="#about">О нас</a><br>
+                              <a href="#fruits">Каталог</a><br>
+                              <a href="#blog">Наша история</a><br>
+                              <a href="#contact">Связаться</a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h3>Соц. сети</h3>
+                            <p>
+                                <span><img src="images/instagram.png" class="social-icon"></span>
+                                <span><a href="https://www.instagram.com" target="_blank">Instagram</a></span>
+                            </p>
+                            <p>
+                                <span><img src="images/telegram.png" class="social-icon"></span>
+                                <span><a href="https://t.me/yourchannel" target="_blank">Telegram</a></span>
+                            </p>
+                            <p>
+                                <span><img src="images/whatsapp.png" class="social-icon"></span>
+                                <span><a href="https://wa.me/yourphonenumber" target="_blank">Whatsapp</a></span>
+                            </p>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h3>Рассылка</h3>
+                            <p>
+                                <form>
+                                    <input type="text" name="email" placeholder="Введите вашу эл.почту" /> 
+                                    <button>Подписка</button>
+                                </form>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+          <!-- Chat Popup -->
+     <div class="chat-popup" id="chatPopup">
+        <div class="chat-header" id="chatHeader">
+            <span>Чат</span>
+            <span id="closeBtn">&times;</span>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="messages" id="messages"></div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chatInput" placeholder="Введите сообщение...">
+            <button id="sendBtn">Отправить</button>
+        </div>
+    </div>
+    <div class="chat-toggle" id="chatToggle">
+        <img src="images/chat.png" alt="Chat Icon">
+    </div>
+    </footer>
+    <!-- end footer -->
+
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Замените PAGE_URL на канонический URL вашей страницы
+        this.page.identifier = PAGE_IDENTIFIER; // Замените PAGE_IDENTIFIER на уникальный идентификатор вашей страницы
+    };
+
+    (function() { // НЕ ИЗМЕНЯЙТЕ НИЖНЮЮ ЧАСТЬ
+        var d = document, s = d.createElement('script');
+        s.src = 'https://jof-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Пожалуйста, включите JavaScript, чтобы видеть <a href="https://disqus.com/?ref_noscript">комментарии, работающие на Disqus</a>.</noscript>
+
+
+   
+
+    
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="chat.js"></script>
+    <script src="comments.js"></script>
+    <script src="path/to/jquery.nicescroll.min.js"></script>
+    <script src="path/to/jquery.meanmenu.min.js"></script>
+    <script src="path/to/jquery.sticky.js"></script>
+
+
+
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
+
